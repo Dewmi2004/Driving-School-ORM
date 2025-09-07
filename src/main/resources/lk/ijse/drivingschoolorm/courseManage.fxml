@@ -53,7 +53,7 @@
             <VBox alignment="CENTER" prefHeight="198.0" prefWidth="555.0" spacing="15" style="-fx-background-color: #eeeee4; -fx-padding: 15; -fx-border-radius: 8; -fx-background-radius: 8;" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
                 <ImageView fitHeight="203.0" fitWidth="402.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../../../../../../../../../../Pictures/Screenshots/drivingS4.jpeg" />
+                        <Image url="@Images/course.jpeg" />
                     </image>
                 </ImageView>
             </VBox>
