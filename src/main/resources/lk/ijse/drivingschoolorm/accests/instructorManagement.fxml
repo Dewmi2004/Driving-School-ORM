@@ -56,10 +56,10 @@
 
             </GridPane>
 
-            <VBox alignment="CENTER" prefHeight="266.0" prefWidth="517.0" spacing="15" style="-fx-background-color: #eeeee4; -fx-padding: 15;                          -fx-border-radius: 8; -fx-background-radius: 8;" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+            <VBox alignment="CENTER" prefHeight="266.0" prefWidth="517.0" spacing="15" style="-fx-background-color: #eeeee4; -fx-padding: 15; -fx-border-radius: 8; -fx-background-radius: 8;" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
                 <ImageView fitHeight="199.0" fitWidth="388.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@Images/instructor.jpeg" />
+                        <Image url="@../Images/instructor.jpeg" />
                     </image>
                 </ImageView>
             </VBox>
@@ -67,10 +67,10 @@
         </HBox>
 
         <HBox alignment="CENTER_LEFT" spacing="15">
-            <Button fx:id="btnSave" onAction="#handleAddInstructor" style="-fx-background-color: #27ae60; -fx-text-fill: white;                            -fx-font-weight: bold; -fx-background-radius: 8;" text="Save" />
-            <Button onAction="#handleClear" style="-fx-background-color: #787A7D; -fx-text-fill: white;                            -fx-font-weight: bold; -fx-background-radius: 8;" text="Clear" />
-            <Button fx:id="btnUpdate" onAction="#handleUpdateInstructor" style="-fx-background-color: #536C95; -fx-text-fill: white;                            -fx-font-weight: bold; -fx-background-radius: 8;" text="Update" />
-            <Button onAction="#handleDeleteInstructor" style="-fx-background-color: #e74c3c; -fx-text-fill: white;                            -fx-font-weight: bold; -fx-background-radius: 8;" text="Delete" />
+            <Button fx:id="btnSave" onAction="#handleAddInstructor" style="-fx-background-color: #27ae60; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Save" />
+            <Button fx:id="btnClear" onAction="#handleClear" style="-fx-background-color: #787A7D; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Clear" />
+            <Button fx:id="btnUpdate" onAction="#handleUpdateInstructor" style="-fx-background-color: #536C95; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Update" />
+            <Button fx:id="btnDelete" onAction="#handleDeleteInstructor" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Delete" />
         </HBox>
 
         <TableView fx:id="tblInstructors" onMouseClicked="#clickOnAction" prefHeight="246.0" prefWidth="930.0" style="-fx-background-color: white; -fx-border-color: lightgray; -fx-border-radius: 8;" VBox.vgrow="ALWAYS">

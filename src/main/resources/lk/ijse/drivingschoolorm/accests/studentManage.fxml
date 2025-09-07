@@ -66,7 +66,7 @@
             <VBox alignment="CENTER" prefHeight="266.0" prefWidth="517.0" spacing="15" style="-fx-background-color: #eeeee4; -fx-padding: 15; -fx-border-radius: 8; -fx-background-radius: 8;" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
                 <ImageView fitHeight="249.0" fitWidth="388.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@Images/student.jpeg" />
+                        <Image url="@../Images/student.jpeg" />
                     </image>
                 </ImageView>
             </VBox>
@@ -76,9 +76,9 @@
 
         <HBox alignment="CENTER_LEFT" spacing="15">
             <Button fx:id="btnAdd" onAction="#handleAddStudent" style="-fx-background-color: #27ae60; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Save" />
-            <Button onAction="#handleClear" style="-fx-background-color: #787A7D; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Clear" />
-         <Button fx:id="btnAdd1" layoutX="10.0" layoutY="10.0" onAction="#handleUpdateStudent" style="-fx-background-color: #536C95; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Update" />
-         <Button layoutX="68.0" layoutY="10.0" onAction="#handleDeleteStudent" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Delete" />
+            <Button fx:id="btnClear" onAction="#handleClear" style="-fx-background-color: #787A7D; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Clear" />
+         <Button fx:id="btnUpdate" layoutX="10.0" layoutY="10.0" onAction="#handleUpdateStudent" style="-fx-background-color: #536C95; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Update" />
+         <Button fx:id="btnDelete" layoutX="68.0" layoutY="10.0" onAction="#handleDeleteStudent" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" text="Delete" />
         </HBox>
 
         <TableView fx:id="tblStudents" onMouseClicked="#clickOnAction" prefHeight="246.0" prefWidth="930.0" style="-fx-background-color: white; -fx-border-color: lightgray; -fx-border-radius: 8;" VBox.vgrow="ALWAYS">

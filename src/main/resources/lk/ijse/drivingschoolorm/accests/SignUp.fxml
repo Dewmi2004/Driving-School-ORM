@@ -20,7 +20,7 @@
 
         <ImageView fitHeight="600.0" fitWidth="1000.0" opacity="0.4" preserveRatio="false">
             <image>
-                <Image url="@Images/signup.jpeg" />
+                <Image url="@../Images/signup.jpeg" />
             </image>
         </ImageView>
 
