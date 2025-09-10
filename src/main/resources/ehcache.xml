@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false">
+
+    <!-- Default cache settings -->
+    <defaultCache
+            maxEntriesLocalHeap="1000"
+            eternal="false"
+            timeToIdleSeconds="300"
+            timeToLiveSeconds="600"
+            overflowToDisk="false"
+            statistics="true"/>
+
+    <!-- Cache for Instructor entity -->
+    <cache name="lk.ijse.drivingschoolorm.entity.Instructor"
+           maxEntriesLocalHeap="500"
+           eternal="false"
+           timeToIdleSeconds="300"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           statistics="true"/>
+
+    <!-- Cache for Course entity -->
+    <cache name="lk.ijse.drivingschoolorm.entity.Course"
+           maxEntriesLocalHeap="500"
+           eternal="false"
+           timeToIdleSeconds="300"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           statistics="true"/>
+
+    <!-- Cache for Student entity -->
+    <cache name="lk.ijse.drivingschoolorm.entity.Student"
+           maxEntriesLocalHeap="1000"
+           eternal="false"
+           timeToIdleSeconds="300"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           statistics="true"/>
+
+    <!-- Cache for Lesson entity -->
+    <cache name="lk.ijse.drivingschoolorm.entity.Lesson"
+           maxEntriesLocalHeap="800"
+           eternal="false"
+           timeToIdleSeconds="300"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           statistics="true"/>
+
+    <!-- Cache for Payment entity -->
+    <cache name="lk.ijse.drivingschoolorm.entity.Payment"
+           maxEntriesLocalHeap="1000"
+           eternal="false"
+           timeToIdleSeconds="300"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           statistics="true"/>
+
+    <!-- Cache for User entity -->
+    <cache name="lk.ijse.drivingschoolorm.entity.User"
+           maxEntriesLocalHeap="500"
+           eternal="false"
+           timeToIdleSeconds="300"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           statistics="true"/>
+
+</ehcache>

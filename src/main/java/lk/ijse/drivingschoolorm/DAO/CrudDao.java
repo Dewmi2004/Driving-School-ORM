@@ -1,13 +1,23 @@
 package lk.ijse.drivingschoolorm.DAO;
 
-import java.sql.SQLException;
-import java.util.ArrayList;
+import lk.ijse.drivingschoolorm.entity.SuperEntity;
+import org.hibernate.Session;
 
-public interface CrudDao<T> extends SuperDao{
-    public ArrayList<T> getAll() throws SQLException, ClassNotFoundException;
-    public boolean Save(T dto) throws SQLException, ClassNotFoundException;
-    public boolean update(T dto) throws SQLException, ClassNotFoundException ;
-    public boolean Delete(String id) throws SQLException, ClassNotFoundException ;
-    public String getNextId() throws SQLException, ClassNotFoundException;
+import java.io.Serializable;
+import java.util.List;
+import java.util.Optional;
+
+public interface CrudDao<T  extends SuperEntity,ID extends Serializable> extends SuperDao{
+    void save(T t, Session session);
+
+    void update(T t, Session session);
+
+    void deleteByPk(ID pk, Session session);
+
+    List<T> findAll(Session session);
+
+    Optional<T> findByPk(ID pk, Session session);
+
+    Optional<String> getLastPk(Session session);
 
 }

@@ -5,6 +5,7 @@ module lk.ijse.drivingschoolorm {
     requires org.hibernate.orm.core;
     requires java.mail;
     requires static lombok;
+    requires jakarta.persistence;
 
 
     opens lk.ijse.drivingschoolorm to javafx.fxml;
