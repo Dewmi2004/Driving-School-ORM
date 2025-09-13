@@ -1,4 +1,4 @@
-package lk.ijse.drivingschoolorm.DAO;
+package lk.ijse.drivingschoolorm.dao;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;

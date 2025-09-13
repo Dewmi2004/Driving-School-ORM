@@ -1,7 +1,7 @@
-package lk.ijse.drivingschoolorm.DAO;
+package lk.ijse.drivingschoolorm.dao;
 
 
-import lk.ijse.drivingschoolorm.DAO.custom.impl.StudentDAOImpl;
+import lk.ijse.drivingschoolorm.dao.custom.impl.StudentDAOImpl;
 
 public class DAOFactory {
     private static DAOFactory instance;

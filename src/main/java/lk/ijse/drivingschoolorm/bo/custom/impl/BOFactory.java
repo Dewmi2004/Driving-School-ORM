@@ -1,13 +1,13 @@
-package lk.ijse.drivingschoolorm.BO.custom.impl;
+package lk.ijse.drivingschoolorm.bo.custom.impl;
 
-import lk.ijse.drivingschoolorm.BO.SuperBO;
+import lk.ijse.drivingschoolorm.bo.SuperBO;
 
 
 public class BOFactory {
-        private static lk.ijse.drivingschoolorm.BO.custom.impl.BOFactory instance;
-        public static lk.ijse.drivingschoolorm.BO.custom.impl.BOFactory getInstance(){
+        private static lk.ijse.drivingschoolorm.bo.custom.impl.BOFactory instance;
+        public static lk.ijse.drivingschoolorm.bo.custom.impl.BOFactory getInstance(){
             if(instance==null){
-                instance=new lk.ijse.drivingschoolorm.BO.custom.impl.BOFactory();
+                instance=new lk.ijse.drivingschoolorm.bo.custom.impl.BOFactory();
 
             }
             return instance;

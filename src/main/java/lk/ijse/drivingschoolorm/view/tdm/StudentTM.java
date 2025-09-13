@@ -7,7 +7,7 @@ import java.sql.Date;
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString
+//@ToString
 
 public class StudentTM {
     private String studentID;
